@@ -17,13 +17,10 @@ h1, h2, h3 {
   margin: 0;
 }
 
-<<<<<<< HEAD
 h1 {
   font-size: 32px;
 }
 
-=======
->>>>>>> dc07e5b4062b9584b9044650c1f29169d3c78f7b
 a {
   color: #00AABD;
   text-decoration: underline;
@@ -59,10 +56,7 @@ section.workarea {
 .box {
   max-width: 990px;
   margin: 0 auto;
-<<<<<<< HEAD
   padding: 0 15px;
-=======
->>>>>>> dc07e5b4062b9584b9044650c1f29169d3c78f7b
   height: 100%;
 }
 
@@ -124,7 +118,6 @@ ul li:before {
   background: #00AABD;
   top: 7px;
   left: 0;
-<<<<<<< HEAD
 }
 
 .article-dbl {
@@ -143,6 +136,4 @@ ul li:before {
   .article-half:first-child {
     margin-bottom: 40px;
   }
-=======
->>>>>>> dc07e5b4062b9584b9044650c1f29169d3c78f7b
 }
