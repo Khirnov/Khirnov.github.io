@@ -22,6 +22,10 @@ a {
   text-decoration: underline;
 }
 
+img {
+  max-width: 100%;
+}
+
 header {
   background: #CDD200;
   height: 80px;
@@ -54,6 +58,9 @@ section.workarea {
 }
 section.workarea h1 {
   margin-bottom: 30px;
+}
+section.poster {
+  margin-top: 20px;
 }
 
 .box {
