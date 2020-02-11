@@ -17,17 +17,13 @@ h1, h2, h3 {
   margin: 0;
 }
 
-h1 {
-  font-size: 32px;
-}
-
 a {
   color: #00AABD;
   text-decoration: underline;
 }
 
 header {
-  background: #00AABD;
+  background: #CDD200;
   height: 80px;
   color: #ffffff;
 }
@@ -38,9 +34,12 @@ header a {
 header a:hover {
   opacity: 0.8;
 }
+header a.site-name {
+  font-size: 32px;
+}
 
 footer {
-  background: #00AABD;
+  background: #CDD200;
   height: 40px;
   color: #ffffff;
 }
@@ -51,6 +50,10 @@ footer {
 
 section.workarea {
   padding: 20px 0 50px;
+  min-height: calc(100vh - 180px);
+}
+section.workarea h1 {
+  margin-bottom: 30px;
 }
 
 .box {
@@ -82,7 +85,7 @@ p {
 
 .btn {
   display: inline-block;
-  background: #00AABD;
+  background: #CDD200;
   color: #ffffff;
   padding: 20px 50px;
   text-decoration: none;
@@ -118,6 +121,21 @@ ul li:before {
   background: #00AABD;
   top: 7px;
   left: 0;
+}
+
+.top-menu {
+  padding-top: 20px;
+  border-bottom: 1px solid #00AABD;
+}
+.top-menu a {
+  display: inline-block;
+  margin-right: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.top-menu a.active {
+  color: #CDD200;
 }
 
 .article-dbl {
