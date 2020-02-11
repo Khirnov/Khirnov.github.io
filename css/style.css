@@ -130,23 +130,45 @@ ul li:before {
   left: 0;
 }
 
-.top-menu {
-  padding-top: 20px;
-  border-bottom: 1px solid #00AABD;
+.top-halh {
+  width: 100%;
+  text-align: center;
 }
-.top-menu a {
+
+.menu-wrapp {
+  border-bottom: 1px solid #00AABD;
+  padding-top: 20px;
+}
+.menu-wrapp a {
   display: inline-block;
-  margin-right: 30px;
   text-decoration: none;
   font-weight: bold;
   padding: 10px 0;
 }
-.top-menu a.active {
+.menu-wrapp a.active {
   color: #CDD200;
+}
+
+.top-menu a {
+  margin-right: 30px;
+}
+
+.top-right {
+  text-align: right;
+}
+.top-right a {
+  margin-left: 20px;
+}
+.top-right a:first-child {
+  margin-left: 0;
 }
 
 .article-dbl {
   align-items: flex-start;
+}
+
+.goo-map {
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 768px) {
