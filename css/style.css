@@ -171,6 +171,40 @@ ul li:before {
   margin-top: 50px;
 }
 
+.media-wrapp {
+  margin-bottom: 40px;
+}
+
+.face-item {
+  margin-bottom: 30px;
+}
+
+.fi-avatar {
+  width: 156px;
+  height: 167px;
+  position: relative;
+}
+
+.fi-avatar img {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.fi-text {
+  width: calc(100% - 170px);
+}
+
+.fi-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00AABD;
+  margin-bottom: 15px;
+}
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 22px;
@@ -182,5 +216,24 @@ ul li:before {
 
   .article-half:first-child {
     margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .face-item {
+    flex-wrap: wrap;
+  }
+
+  .fi-avatar {
+    width: 100%;
+  }
+  .fi-avatar img {
+    margin: 0 auto;
+  }
+
+  .fi-text {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #00AABD;
+    padding-bottom: 20px;
   }
 }
