@@ -4,6 +4,6 @@
   "description": "This is a dummy package.json file created by Prepros to manage packages with NPM. You can edit this file to add your own information.",
   "dependencies": {
     "kit": "^1.0.26",
-    "braces": ">=2.3.1"
+    "braces": "^2.3.1"
   }
 }
