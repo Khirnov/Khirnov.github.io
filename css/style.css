@@ -176,17 +176,18 @@ ul li:before {
 }
 
 .face-item {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+.face-item.experts {
+  align-items: flex-start;
 }
 
 .fi-avatar {
   width: 156px;
-  height: 167px;
   position: relative;
 }
 
 .fi-avatar img {
-  position: absolute;
   display: block;
   top: 0;
   right: 0;

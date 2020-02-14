@@ -159,15 +159,16 @@ ul{
   margin-bottom: 40px;
 }
 .face-item{
-  margin-bottom: 30px;
+  margin-bottom:40px;
+  &.experts{
+    align-items: flex-start;
+  }
 }
 .fi-avatar{
   width: 156px;
-  height: 167px;
   position: relative;
 }
 .fi-avatar img{
-  position: absolute;
   display: block;
   top: 0;
   right: 0;
@@ -194,6 +195,7 @@ ul{
     margin-bottom: 40px;
   }
 }
+
 @media screen and (max-width: 420px){
   .face-item{
     flex-wrap: wrap;
