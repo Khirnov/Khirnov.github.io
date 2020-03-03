@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -128,6 +129,28 @@ ul li:before {
   background: #00AABD;
   top: 7px;
   left: 0;
+}
+
+ol {
+  list-style: none;
+  margin: 20px 0;
+  counter-reset: num;
+}
+ol li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+ol li:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: counter(num) ". ";
+  /* Выводим число */
+  counter-increment: num;
+  /* Увеличиваем значение счётчика */
+  color: #00AABD;
+  font-weight: bold;
 }
 
 .top-halh {

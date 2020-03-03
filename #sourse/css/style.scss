@@ -119,6 +119,25 @@ ul{
     }
   }
 }
+ol{
+  list-style: none;
+  margin: 20px 0;
+  counter-reset: num;
+  li{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    &:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: counter(num) '. '; /* Выводим число */
+    counter-increment: num; /* Увеличиваем значение счётчика */
+    color: $base-color;
+    font-weight: bold;
+   }
+  }
+}
 .top-halh{
   width: 100%;
   text-align: center;
