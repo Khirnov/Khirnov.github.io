@@ -203,6 +203,28 @@ ol{
   color: $base-color;
   margin-bottom: 15px;
 }
+
+.logos{
+
+}
+.logos-item{
+  &.item-link{
+    width: 20%;
+  }
+  &.item-text{
+    width: 70%;
+    padding: 0 40px;
+    text-align: justify;
+  }
+}
+.logos-item-link{
+  display: block;
+  svg{
+    width: 173px;
+    display: block;
+    margin: 0 auto;
+  }
+}
 @media screen and (max-width: 768px){
   h1{
     font-size: 22px;
@@ -213,6 +235,11 @@ ol{
   .article-half:first-child{
     margin-bottom: 40px;
   }
+  .logos{
+    display: block;
+  }
+  .logos-item.item-link, .logos-item.item-text{width: 100%;}
+  .logos-item.item-text{padding: 30px 0;}
 }
 
 @media screen and (max-width: 420px){
