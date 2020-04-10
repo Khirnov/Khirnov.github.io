@@ -82,6 +82,10 @@ section.poster {
 article {
   padding: 20px 0;
 }
+article h2{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
 
 .article-half h3 {
   margin-bottom: 20px;
